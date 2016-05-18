@@ -1,0 +1,28 @@
+﻿  xp.cpp
+d:\github projects\robots!\robots!\xp.cpp(8): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\github projects\robots!\robots!\xp.cpp(10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\github projects\robots!\robots!\xp.cpp(12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\github projects\robots!\robots!\xp.cpp(14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\github projects\robots!\robots!\xp.cpp(16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Stats.cpp
+d:\github projects\robots!\robots!\robots! classes.h(12): error C2447: '{': missing function header (old-style formal list?)
+d:\github projects\robots!\robots!\stats.cpp(19): error C2059: syntax error: ';'
+  Source.cpp
+d:\github projects\robots!\robots!\source.cpp(1): error C2059: syntax error: ')'
+d:\github projects\robots!\robots!\source.cpp(2): error C2143: syntax error: missing ';' before '{'
+d:\github projects\robots!\robots!\source.cpp(2): error C2447: '{': missing function header (old-style formal list?)
+  save data.cpp
+  Misc.cpp
+d:\github projects\robots!\robots!\misc.cpp(11): warning C4018: '<': signed/unsigned mismatch
+  Robots!.cpp
+  Intro.cpp
+  Help.cpp
+d:\github projects\robots!\robots!\help.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  Character.cpp
+d:\github projects\robots!\robots!\character.cpp(13): warning C4018: '<': signed/unsigned mismatch
+d:\github projects\robots!\robots!\character.cpp(35): warning C4018: '<': signed/unsigned mismatch
+  Battle.cpp
+d:\github projects\robots!\robots!\battle.cpp(26): warning C4018: '>': signed/unsigned mismatch
+  Generating Code...
+d:\github projects\robots!\robots!\battle.cpp(42): warning C4715: 'attack_land': not all control paths return a value
+d:\github projects\robots!\robots!\battle.cpp(38): error C4700: uninitialized local variable 'enemy_evasion' used
