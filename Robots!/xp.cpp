@@ -24,3 +24,4 @@ void xp(int &level, int xp_mod, int gained_xp, int &held_xp)
 	held_xp += gained_xp;//add gained to held
 	if (gained_xp >= needed) level += 1;
 }
+//blah test

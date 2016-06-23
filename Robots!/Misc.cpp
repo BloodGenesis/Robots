@@ -1,8 +1,8 @@
 #include "Battle.h"
 
-void pause()
+void pause(string message)
 {
-	std::cout << std::endl << "Press ENTER" << std::endl;
+	std::cout << std::endl << message;
 	std::cin.ignore(256, '\n');// keeps it from automatically continuing from the previous statement
 }
 

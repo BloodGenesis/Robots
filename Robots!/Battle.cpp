@@ -41,9 +41,15 @@ bool attack_land(vector<int> attacker, vector<int> defender)//Looking for the od
 	else if (land < 1) return false;
 }
 
-void fight(string a, string b, vector<int> player_stats, vector<int> enemy_stats, vector<string> enemy_moves, vector<string> player_moves)
+void fight()
 {
-	display(a, b, player_stats, enemy_stats);
+	string user_bot;
+	string enemy_bot;
+	vector<int> player_stats;
+	vector<int> enemy_stats;
+	vector<string> player_moves;
+	vector<string> enemy_moves;
+	display(user_bot, enemy_bot, player_stats, enemy_stats);
 	bool user_turn;
 	start_turn(player_stats, enemy_stats, user_turn);
 
@@ -66,7 +72,7 @@ void fight(string a, string b, vector<int> player_stats, vector<int> enemy_stats
 		{
 			int index = rand() % 4;
 		
-			std::cout << b << " used " << enemy_moves[index] << std::endl; 
+			std::cout << enemy_bot << " used " << enemy_moves[index] << std::endl; 
 			//damage taken
 			std::cout << "\n" << std::endl;
 		}

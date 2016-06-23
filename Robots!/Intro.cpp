@@ -14,6 +14,6 @@ void intro()
 
 	std::cout << "Welcome to the Robots! Battle demo!" << std::endl;
 	std::cout << "If you enjoy this demo or think the idea has"<<"\n"<< "potential please consider donating!" << std::endl;
-	pause();
+	pause("Press enter to continue");
 	system("CLS");
 }
